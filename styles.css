@@ -426,3 +426,75 @@ iframe {
         transform: translate(-50%, -50%) scale(0.5);
     }
 }
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    #photo-container {
+        max-width: 250px;
+    }
+
+    #photo {
+        max-width: 250px;
+    }
+
+    #text-below-photo,
+    #text-below-countdown {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+
+    #countdown {
+        font-size: 18px;
+    }
+
+    .food-button {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        top: 60px;
+        right: 15px;
+    }
+
+    #oneko {
+        width: 24px;
+        height: 24px;
+    }
+
+    #footer {
+        padding: 15px;
+        font-size: 14px;
+    }
+}
+
+/* Ajustes para telas muito pequenas */
+@media (max-width: 320px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    #photo-container {
+        max-width: 200px;
+    }
+
+    #photo {
+        max-width: 200px;
+    }
+
+    #text-below-photo,
+    #text-below-countdown {
+        font-size: 12px;
+    }
+
+    #countdown {
+        font-size: 16px;
+    }
+}
