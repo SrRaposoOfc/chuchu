@@ -1,24 +1,51 @@
 {
-    "name": "Página Especial",
-    "short_name": "Especial",
+    "name": "Perfeita",
+    "short_name": "Perfeita",
     "description": "Uma página especial criada com amor",
-    "start_url": "/",
+    "start_url": "./",
+    "scope": "./",
     "display": "standalone",
-    "background_color": "#87CEEB",
-    "theme_color": "#87CEEB",
+    "background_color": "#4300ff",
+    "theme_color": "#000000",
     "orientation": "portrait",
+    "id": "com.perfeita.app",
+    "dir": "ltr",
+    "lang": "pt-BR",
+    "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
+    "categories": ["lifestyle", "social"],
+    "prefer_related_applications": false,
     "icons": [
         {
             "src": "assets/icon-192x192.png",
             "sizes": "192x192",
             "type": "image/png",
-            "purpose": "any maskable"
+            "purpose": "any"
+        },
+        {
+            "src": "assets/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
         },
         {
             "src": "assets/icon-512x512.png",
             "sizes": "512x512",
             "type": "image/png",
-            "purpose": "any maskable"
+            "purpose": "any"
+        },
+        {
+            "src": "assets/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "assets/screenshot1.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "form_factor": "wide"
         }
     ]
 } 
